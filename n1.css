@@ -1,0 +1,53 @@
+.navbar {
+
+    position: fixed;
+    width: 100%;
+    height: 15%;
+    background: #000;
+    font: white;
+    font-weight: bold;
+    left: 0px;
+    top: 3%;
+    background-color: transparent;
+    background: transparent;
+    border-color: transparent;
+    z-index: 10
+}
+
+.navbar>.container,
+.navbar>.container-fluid {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin: 0px;
+    
+}
+/* button */
+.btn {
+     padding:2%
+}
+/* unvisited link */
+a:link {
+    color: #ff00ff;
+    ;
+}
+
+/* visited link */
+a:visited {
+    color:#fdc448ef;
+}
+
+/* mouse over link */
+a:hover {
+    color: #e09557;
+}
+
+/* selected link */
+a:active {
+    color:red;
+}
+li{list-style:none;}
